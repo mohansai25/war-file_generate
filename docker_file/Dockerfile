@@ -13,5 +13,5 @@ CMD /usr/local/tomcat/bin/catalina.sh run
 # Copy configurations (Tomcat users, Manager app)
 COPY tomcat-users.xml /usr/local/tomcat/conf/
 COPY context.xml /usr/local/tomcat/webapps/manager/META-INF/
-COPY Main.jar /usr/local/tomcat/webapps
+COPY hello.war /usr/local/tomcat/webapps
 #ADD /var/lib/jenkins/workspace/pipeline/Main.jar /usr/local/tomcat/webapps/Main.jar
