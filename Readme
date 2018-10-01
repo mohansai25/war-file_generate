@@ -13,11 +13,11 @@ https://techbeacon.com/beginners-guide-kick-starting-your-ci-pipeline-jenkins
 
 
 
+=-==============================================================
 
-
-
-
-
-
+add  system ssh key in github
+github :- Integration and services -> webhook :- http://35.237.220.250:8080/github-webhook/.
+============================================
+Docker :- 
 
 docker run -p 9090:8080 -d --name Apache testing:latest
